@@ -1,10 +1,31 @@
-.banner:nth-child(even) {
+.full-page-section {
+   height: 100vh;
+}
+
+.full-page-section:nth-child(even) {
    background-color: rgb(200, 200, 200);
 }
 
+.full-page-section:nth-child(2) {
+   background: url('../img/6350327948_5038fc6362_b.jpg') no-repeat scroll 0 0 / cover;
+}
+
+.full-page-section:nth-child(3) {
+   background: url('../img/6294022091_45e8f92fc2_b.jpg') no-repeat fixed 0 0 / cover;
+}
+
+.full-page-section:nth-child(4) {
+   background: url('../img/6265763139_c8c35aaebf_b.jpg') no-repeat scroll 0 0 / cover;
+}
+
+.full-page-section:nth-child(5) {
+   background: url('../img/6249680935_9e479ce922_b.jpg') no-repeat fixed 0 0 / cover;
+}
+
 .content {
+   background-color: rgba(255, 255, 255, .9);
    margin: auto;
-   padding: 20px 0;
+   padding: 20px;
    width: 800px;
 }
 
